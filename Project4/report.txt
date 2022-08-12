@@ -1,0 +1,24 @@
+I was able to finish all of the project.
+I did not use any banned STL componenets
+I do not believe I have any bugs in my code
+
+AttributeTranslator Class
+Assuming the RadixTree was acting properly, I mainly had to make sure it was inserting the strings I wanted. I isolated several lines from the translation file and ran them through 
+the class. I then checked the variables to make sure they were properly storing their designated part of the string. To see if the compatible pairs were inserting correctly, I checked the size
+of the vector through the debugger as the program ran through to make sure it grew when it supposed to. 
+
+MatchMaker Class
+To check the MatchMaker Class I ran my own program and compared results with the sample on the seasnet server. For example, I tried MHa7@sky.com with a threshhold of 7 and checks the resulting
+out puts with eachother. I then tried the same class with a threshhold of 6, 5, 4 etc. I then repeated this test with several other emails.
+
+MemberDatabase Class
+To test the LoadDataBase class, I ran the program through the debugger to check that it was reading the lines I programmed it to. I also did this by testing the code with a small members.txt file and checking the outputs.
+
+PersonProfile Class
+I was able to use the program to test this code, as by inputting the email of the person it's attvalpairs will be spit out. Through this, I checked several of the members to make sure their variables were inputed correctly. 
+This ensured the AttValPairs were inserted and grabbed correctly.
+
+RadixTree Class
+I tested this class by inserting several values that would test different cases of isertion. For example, I tested inserting "5" and then "25" to check the case where the two
+strings do not share a prefix. I then checked "5123" and "5125" to check the case where the two strings diverge at a certain point. I also inserted "5123" then "512" to check
+the case where the second string is a prefix of the first. For each case I tested, I searched the values to make sure they were inserted correctly. 
